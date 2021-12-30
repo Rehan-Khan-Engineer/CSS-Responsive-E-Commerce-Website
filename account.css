@@ -9,32 +9,29 @@
   color: #ddd;
   background: #333;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 h2 {
-  margin: 20px;
-  margin-left: 80px;
+  margin: 2rem;
 }
 
 .maintenance-img {
-  text-align: center;
-  margin: 50px;
-  max-width: 100%;
+  margin: 2rem;
+  padding: 1rem;
 }
 
-.maintenance {
-  padding: 40px;
+.maintenance-img img {
+  width: 100%;
 }
 
-img:hover {
+.maintenance-img:hover {
   background: khaki;
-}
-
-h4 {
-  margin: 20px;
-  margin-left: 80px;
-}
-
-h4:hover {
-  background: #555;
 }
 
 a {
@@ -44,4 +41,9 @@ a {
 
 a:hover {
   background: black;
+}
+
+.home-link {
+  padding: 0.8rem;
+  border-radius: 0.8rem;
 }
